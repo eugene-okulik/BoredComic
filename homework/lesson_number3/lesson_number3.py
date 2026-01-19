@@ -17,4 +17,3 @@ my_dict['set'].discard(3)
 
 print(my_dict['tuple'][-1])
 print(my_dict)
-
