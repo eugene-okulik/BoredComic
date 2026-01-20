@@ -8,12 +8,11 @@ my_dict = {
 my_dict['list'].append(6)
 my_dict['list'].pop(1)
 
-my_dict['dict'][('i am a tuple')] = 6
+my_dict['dict'][('i am a tuple',)] = 6
 my_dict['dict'].pop('two')
 
 my_dict['set'].add(6)
 my_dict['set'].discard(3)
-
 
 print(my_dict['tuple'][-1])
 print(my_dict)
