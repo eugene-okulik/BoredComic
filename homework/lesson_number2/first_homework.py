@@ -34,4 +34,4 @@ first_cathetus = 5
 second_cathetus = 5
 
 hypotenuse = (first_cathetus ** 2 + second_cathetus ** 2) ** 0.5
-print(int(hypotenuse))
+print(hypotenuse)
