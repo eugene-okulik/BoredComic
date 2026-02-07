@@ -13,5 +13,3 @@ for word in words:
     fin_words.append(word + "ing" + punctuation)
 
 print(" ".join(fin_words))
-
-

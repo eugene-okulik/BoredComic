@@ -9,5 +9,3 @@ for numbers in range(1, 101):
         print('buzz')
     else:
         print(numbers)
-
-
