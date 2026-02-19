@@ -1,8 +1,8 @@
-words = {'I': 3, 'love': 5, 'Python': 1, '!': 50}
+sentences = "результат работы программы: 200"
 
 
-def word_dict(word):
-    for x in word:
-        print(x * word[x])
+def extract_and_add(text, add_value=10):
+    return int(text.split(": ")[-1]) + add_value
 
-word_dict(words)
+
+print(extract_and_add(sentences))
