@@ -6,4 +6,5 @@ def word_dict(word):
     for x in word:
         print(x * word[x])
 
+
 word_dict(words)
