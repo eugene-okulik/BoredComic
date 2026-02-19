@@ -7,4 +7,3 @@ def some_word(num):
 
 
 print(some_word(senteces))
-

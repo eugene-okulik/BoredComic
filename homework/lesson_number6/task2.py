@@ -8,4 +8,3 @@ def word_dict(word):
 
 
 word_dict(words)
-
