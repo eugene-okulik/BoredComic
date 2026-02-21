@@ -1,9 +1,9 @@
 
-sentences = "результат работы программы: 200"
+words = {'I': 3, 'love': 5, 'Python': 1, '!': 50}
 
 
-def extract_and_add(text, add_value=10):
-    return int(text.split(": ")[-1]) + add_value
+def print_words(dictionary):
+    for word, count in dictionary.items():
+        print(word * count)
 
-
-print(extract_and_add(sentences))
+print_words(words)
