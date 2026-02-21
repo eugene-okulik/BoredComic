@@ -5,4 +5,5 @@ def print_words(dictionary):
     for word, count in dictionary.items():
         print(word * count)
 
+
 print_words(words)
