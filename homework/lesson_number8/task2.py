@@ -1,5 +1,5 @@
 import sys
-sys.set_int_max_str_digits(1000000) # Добавил чтобы питон не ругался
+sys.set_int_max_str_digits(1000000)  # Добавил чтобы питон не ругался
 
 
 def fibonacci():
